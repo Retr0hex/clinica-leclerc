@@ -26,11 +26,17 @@ Na aba "Serviços" o usuário consulta sobre os serviços disponibilizados pela 
 O site também possuirá um canto dedicado para a exibição da equipe que compõe a clínica.
 -- Protótipo do projeto A ideia inicial do nosso site era criar uma página simples e de fácil utilização para uma clínica médica. Segue algumas imagens:
 
-Página inicial pensada em explicar sobre a empresa e seus serviços. A ideia aqui é uma estilização leve e fácil de entender a mensagem passada, assim como um bom hud para transitar no site: PROTOTIPO 1
+Página inicial pensada em explicar sobre a empresa e seus serviços. A ideia aqui é uma estilização leve e fácil de entender a mensagem passada, assim como um bom hud para transitar no site:
+![290684080-141cf91c-3516-4da0-9063-1607c1dfd14a](https://github.com/bbydlux/clinica-leclerc/assets/133933832/14b5354b-0aaf-4723-b01f-d6c86ac0db0e)
 
-Página explicando sobre a empresa e o objetivo dos colaboradores. A ideia aqui é passar uma imagem profissional e moderna da empresa e seus serviços; prototipo 2
 
-Página pop-up para receber atualizações no e-mail. Aqui, buscamos uma interface simples e direta para o usuário, de fácil compreensão.; prototipo 3
+Página explicando sobre a empresa e o objetivo dos colaboradores. A ideia aqui é passar uma imagem profissional e moderna da empresa e seus serviços;
+![290683811-2406f6da-9d95-4643-b75d-30b53cbf8882](https://github.com/bbydlux/clinica-leclerc/assets/133933832/ce83df75-d1b8-4c6f-8b4f-00243b837248)
+
+
+Página pop-up para receber atualizações no e-mail. Aqui, buscamos uma interface simples e direta para o usuário, de fácil compreensão.
+![290688174-c4961d07-3d89-4008-aac6-60f57254dac2](https://github.com/bbydlux/clinica-leclerc/assets/133933832/f316bcd1-3575-4db3-aa04-edba3c58502f)
+
 
 -- Tecnologias Usadas para desenvolvimento:
 
