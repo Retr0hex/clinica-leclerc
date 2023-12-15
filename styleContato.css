@@ -1,0 +1,306 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    /* Cor de fundo branca */
+    padding: 30px;
+    border-radius: 10px;
+    /* Cantos arredondados */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    text-align: center;
+    max-width: 600px;
+    /* Largura máxima do formulário */
+    margin: auto;
+    /* Centralizar o formulário */
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    background-color: #46c5ff;
+    /* Cor de fundo azul */
+    color: #fff;
+    /* Cor do texto branco */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #3aa6d0;
+    /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+.form-container small {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Estilos para dispositivos móveis */
+    .form-container {
+        padding: 20px;
+    }
+}
+
+.heart {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.title {
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.home {
+    padding-left: 5%;
+}
+
+.info {
+    padding-left: 19%;
+}
+
+.location {
+    padding-left: 40%;
+}
+
+.email {
+    padding-left: 17%;
+}
+
+.Inicio {
+    padding-left: 5.2%;
+}
+
+.Informacoes {
+    padding-left: 19%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.leClercServicos {
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+.btEquipe,
+.btContato {
+    background-color: rgb(57, 209, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    /* Adiciona uma transição suave de 1 segundo */
+    margin: 0 10px;
+
+}
+
+.btEquipe:hover,
+.btContato:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+    /* Aumenta o tamanho em 1.2x quando o mouse está sobre o botão */
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.menu {
+    position: fixed;
+    bottom: 120px;
+    right: 10px;
+    background-color: #46c5ff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: top 0.3s ease-in-out;
+    z-index: 999;
+    /* Garante que o menu fique sempre visível */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.menu ul li {
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: #ffcc00;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* celulares */
+    .servicos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home,
+    .info,
+    .location,
+    .email,
+    .Inicio,
+    .Informacoes {
+        padding-left: 10%;
+    }
+
+    .textoPsiquiatrico {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .menu ul li {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'Hedvig Letters Serif', serif;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    /* computadores e tablets */
+    .servicos {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .home,
+    .info,
+    .location,
+    .email,
+    .Inicio,
+    .Informacoes {
+        padding-left: 15%;
+    }
+
+    .textoPsiquiatrico {
+        padding-right: 2%;
+        padding-left: 2%;
+        /* Para o texto ocupar metade do espaço */
+    }
+
+    .menu ul li {
+        margin-bottom: 35px;
+        margin-left: 35px;
+        margin-right: 35px;
+
+    }
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'Hedvig Letters Serif', serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .imgPsi {
+        max-width: 50%;
+        /* Para a imagem ocupar a outra metade do espaço */
+    }
+}
+
+.form-map-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    /* Define a largura máxima do conjunto formulário + mapa */
+    margin: 0 auto;
+    /* Centraliza o conteúdo */
+}
+
+.form-container {
+    flex: 1;
+    /* Seus estilos para o contêiner do formulário aqui */
+}
+
+.map-container {
+    flex: 1;
+    margin-left: 20px;
+    /* Espaçamento entre o formulário e o mapa */
+}
+
+map-responsive-container {
+    overflow: hidden;
+    /* Proporção de aspecto para manter a relação de altura/largura (16:9) */
+    padding-top: 56.25%;
+    /* 9/16 = 0.5625 */
+    position: relative;
+}
+
+.map-responsive-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
