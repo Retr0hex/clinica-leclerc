@@ -224,6 +224,9 @@
         text-align: center;
         font-size: 13px;
     }
+    .imgPsi{
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -266,7 +269,7 @@
     }
 
     .imgPsi {
-        max-width: 50%;
+        max-width: 100%;
         /* Para a imagem ocupar a outra metade do espaço */
     }
 }
