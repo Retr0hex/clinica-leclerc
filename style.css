@@ -201,7 +201,11 @@
   .email,
   .Inicio,
   .Informacoes {
-    padding-left: 15%;
+    padding-left: 10%;
+    
+  }
+  .Chinelo{
+    max-width: 100%;
   }
 
   .conteudoSobre {
