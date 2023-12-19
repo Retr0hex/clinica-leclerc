@@ -1,6 +1,9 @@
 .html {
   scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
+
 
 .body {
   box-sizing: border-box;
@@ -47,8 +50,9 @@
 
 .conteudoSobre {
   display: flex;
-  justify-content: space-between;
   padding-right: 7%;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
 }
 
 .textoSobre {
@@ -58,10 +62,12 @@
 }
 
 .textoServicos {
-  text-align: left;
   padding-right: 8%;
   padding-left: 8%;
   line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  text-align: justify;
 }
 
 .shi {
@@ -168,6 +174,7 @@
   .hidden {
     padding-right: 5%;
     padding-left: 5%;
+    text-align: justify;
   }
 
   .title {
@@ -219,6 +226,7 @@
   .hidden {
     padding-right: 5%;
     padding-left: 3%;
+    text-align: justify;
   }
 
   .title {
