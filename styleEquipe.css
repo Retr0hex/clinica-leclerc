@@ -56,16 +56,20 @@
 .textoProfUm,
 .textoProfDois,
 .textoProfTres {
-    text-align: left;
+    
     padding-right: 2%;
     padding-left: 2%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 .textoServicos {
-    text-align: left;
+    
     padding-right: 8%;
     padding-left: 8%;
     line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 .equipeTitle {
