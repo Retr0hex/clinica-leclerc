@@ -1,12 +1,16 @@
 .html {
     scroll-behavior: smooth;
+    
 }
 
 .body {
     box-sizing: border-box;
     min-height: 100vh;
 }
-
+.p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
 
 .heart {
     text-align: center;
@@ -87,9 +91,11 @@
 }
 
 .textoPsiquiatrico {
-    text-align: left;
+    
     padding-right: 20%;
     padding-left: 8%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 
 }
 
@@ -105,9 +111,11 @@
 }
 
 .textoPsicoanalise {
-    text-align: left;
+    
     padding-right: 10%;
     padding-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 .NeurologiaTitle {
@@ -116,9 +124,11 @@
 }
 
 .textoNeurologia {
-    text-align: left;
+    
     padding-right: 10%;
     padding-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 
